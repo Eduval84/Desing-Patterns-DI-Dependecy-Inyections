@@ -4,20 +4,20 @@ using System.Text;
 
 namespace BasicConcepts
 {
-    public class Jugador
+    public class Jugador  
     {
         private string Nombre;
-        private PC pc;
+        private IDispoistivo dispoistivo;
 
         public Jugador(string nombre)
         {
             Nombre = nombre;
-            pc = new PC("Razer 9 5800, GTX 3070");
+            dispoistivo = new PC("Razer 9 5800, GTX 3070");
         }
 
         public void jugar()
         {
-            pc.jugar();
+            dispoistivo.jugar();
         }
     }
 }

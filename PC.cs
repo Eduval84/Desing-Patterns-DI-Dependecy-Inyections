@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BasicConcepts
 {
-    public class PC
+    public class PC : IDispoistivo
     {
         private string modelo;
 

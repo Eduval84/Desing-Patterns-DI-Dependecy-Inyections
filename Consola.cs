@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BasicConcepts
 {
-    public class Consola
+    public class Consola : IDispoistivo
     {
         private string modelo;
 
