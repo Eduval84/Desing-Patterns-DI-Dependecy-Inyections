@@ -7,17 +7,17 @@ namespace BasicConcepts
     public class Jugador
     {
         private string Nombre;
-        private Consola consola;
+        private PC pc;
 
         public Jugador(string nombre)
         {
             Nombre = nombre;
-            consola = new Consola("PS5");
+            pc = new PC("Razer 9 5800, GTX 3070");
         }
 
         public void jugar()
         {
-            consola.jugar();
+            pc.jugar();
         }
     }
 }
