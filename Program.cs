@@ -6,7 +6,8 @@ namespace BasicConcepts
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Jugador jugador = new Jugador("Edu");
+            jugador.jugar();
         }
     }
 }
