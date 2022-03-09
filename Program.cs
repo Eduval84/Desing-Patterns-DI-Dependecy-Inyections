@@ -9,8 +9,8 @@ namespace BasicConcepts
             Jugador jugador = new Jugador("Edu", new PC("Razer 9 5800, GTX 3070"));
             jugador.jugar();
 
-            Jugador jugador = new Jugador("Edu consolero", new Consola("PS%"));
-            jugador.jugar();
+            Jugador jugador2 = new Jugador("Edu consolero", new Consola("PS5"));
+            jugador2.jugar();
         }
     }
 }
