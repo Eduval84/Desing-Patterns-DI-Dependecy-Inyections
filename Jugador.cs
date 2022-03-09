@@ -7,17 +7,17 @@ namespace BasicConcepts
     public class Jugador  
     {
         private string Nombre;
-        private IDispoistivo dispoistivo;
+        private IDispoistivo dispoistivoJugable;
 
-        public Jugador(string nombre)
+        public Jugador(string nombre, IDispoistivo dispositivo)
         {
             Nombre = nombre;
-            dispoistivo = new PC("Razer 9 5800, GTX 3070");
+            dispoistivoJugable = dispositivo;
         }
 
         public void jugar()
         {
-            dispoistivo.jugar();
+            dispoistivoJugable.jugar();
         }
     }
 }
